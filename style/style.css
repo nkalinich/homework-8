@@ -212,17 +212,19 @@ body {
 .card {
     float: left;
     width: 255px;
-    height: 370px;
     background: #FFFFFF;
     font-family: 'roboto';
-    text-align: center;
     margin-bottom: 100px;
+}
+
+.info {
+    margin: 25px 30px;
+    text-align: center;
 }
 
 .chair {
     width: 125px;
     height: 166px;
-    margin: 25px 65px 20px 65px;
 }
 
 .text {
@@ -231,17 +233,14 @@ body {
     font-size: 14px;
     line-height: 20px;
     color: #333333;
-    margin: 0 30px 20px 30px;
 }
 
 .price {
-    width: 80px;
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
     letter-spacing: 0.05em;
     color: #000000;
-    margin: 0 88px 20px 88px;
 }
 
 .buy {
@@ -255,9 +254,11 @@ body {
     line-height: 36px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
-    margin: 0 60px 25px 63px;
     text-decoration: none;
-    text-align: center;
+}
+
+.indent {
+    margin-bottom: 20px;
 }
 
 .clearfix {
